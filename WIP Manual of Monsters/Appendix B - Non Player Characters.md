@@ -43,6 +43,16 @@
     padding-top: 6px;
     padding-bottom: 6px;
   }
+  
+  /* For double-wide creature statblocks that we want to have anchored to the
+  bottom of the page regardless of content flow. */
+  .statblock-bottom-wide {
+    position:absolute;
+    bottom:63px;
+    right:1.7cm;
+    left:1.7cm;
+    margin-top:1200px;
+  }
 
 
 /* INK BLOT STYLES */
@@ -219,17 +229,19 @@ ___
 >
 > ***Divine Glow (1/Day).*** The acolyte becomes a source of celestial light. Each undead creature in a 15-foot radius centered on the acolyte must make a DC 12 Dexterity saving throw. On a failed save, a creature takes 3 (1d6) radiant damage.
 
-**Acolytes** are the novice priests in many creeds and orders following the teachings of the Light: a powerful force wor&shy;shipped far and wide. In their tutelage, it is often they who are called on for the simple deeds and grunt work.
+**Acolytes** are the novice priests in creeds and orders, great or small, that follow the teachings of a divine power. 
+<br /> In this capacity, simple deeds and physical grunt
+<br /> work are often made part of their tutelage.
 
 \columnbreak
 
 
-> ##### Variant: The Damned <!-- https://wc5e-cr-calculator.frogvall.com/?0;11;27;2;12;4;0;4;0;4;6;0;0;0;0;0;0;;;;;3;;;;;;;;;;1;;;;;;;;10;;;;;;;1;1;1;1;Sacred%20Flame -->
-> Some fresh-faced acolytes lose hope in the Light and instead fall to the sway of the Damned, becoming servants of the  Lich King and the Scourge. 
+> ##### Variant: Acolyte of the Damned <!-- https://wc5e-cr-calculator.frogvall.com/?0;11;27;2;12;4;0;4;0;4;6;0;0;0;0;0;0;;;;;3;;;;;;;;;;1;;;;;;;;10;;;;;;;1;1;1;1;Sacred%20Flame -->
+> One particularly notable group of acolytes are those who fell to the sway of the Damned and became servants of the Lich King and the Scourge.
 > 
-> The Damned have the same astistics as an acolyte except that its *cure wounds* spell can affect undead and it has the following trait in place of acolyte's Divine Glow action:
+> An acolyte of the Damned have the same statistics as an acolyte, except that its *cure wounds* spell can affect undead creatures. It also has the following trait in place of an acolyte's Divine Glow action:
 >
-> <br/> ***Spirit Release.*** When the damned dies, its body release part of its spirit energy. Each creature in a 10-foot radius on the damned must make a DC 12 Constitution saving throw. On a failed save, a creature takes 3 (1d6) necrotic damage.
+> <br/> ***Spirit Release.*** When the acolyte dies, its spirit escapes from its body in a violent burst of energy. Each creature in a 10-foot radius of the priest must make a DC 12 Constitution saving throw. On a failed save, a creature takes 3 (1d6) necrotic damage.
 
 ___
 > ## Arcanist <!-- https://wc5e-cr-calculator.frogvall.com/?0;14;54;4;12;14;0;14;0;14;0;0;0;0;0;0;0;;;;;3;;;;;;;;;;1;;;;;;;;10;;;;;;;2;2;2;4;Arcane%20Blast;Fire%20Bolt;Magic%20Missile -->
@@ -265,9 +277,8 @@ Be it in a bastion of magic such as Dalaran or in smaller societies further afie
 
 
 <div class='footnote'>APPENDIX B: NONPLAYER CHARACTERS </div>
-<img src='https://www.gmbinder.com/images/EUILrmP.jpg' style='position:absolute; top:800px; right:400px; width:500px;' />
-<img src='https://www.gmbinder.com/images/7drSEMn.png' style='position:absolute; top:0px; right:-50px; width:900px; transform:scalex(-1)' />
-<img src='https://www.gmbinder.com/images/MVDaLa2.png' style='position:absolute; top:-70px; right:-150px; width:960px' />
+<img src="https://www.gmbinder.com/images/AYuE5Qf.png" class="inkblot" style="left: -30px;bottom: -342px;width: 520px;transform: rotate(107deg);">
+<img src="https://www.gmbinder.com/images/cNVEirW.png" style="position:absolute;bottom: -22px;left: -42px;width: 455px;">
 
 \pagebreakNum
 
@@ -338,6 +349,14 @@ The talented few that put the work into magical mastery may be recognized as an 
 
 \pagebreakNum
 
+<div style="margin-top:126px"></div>
+
+Among druidic communities, there is nobody more respected and heeded than the wise **archdruid**. Few have ever existed, and those that do live long lives devoted to nature, and many of those few spend their time bound to the Emerald Dream.
+
+\columnbreak
+
+<div class="statblock-bottom-wide">
+
 ___
 ___
 > ## Archdruid <!-- https://wc5e-cr-calculator.frogvall.com/?2;17;231;10;18;98;25;84;25;76;18;0;0;0;0;0;0;;;;1;2;;;;;;;;;;1;;;;;;;;10;;;;;;;9;8;7;17;Solar%20Wrath;Starfall;Starfire;Starsurge;Sunbeam;Wall%20of%20Thorns;Whirlwind;Wrath%20of%20Nature  Extra damage from Wrath of the Moon (+7 per spell w/ at least 5d6 damage) and Fury of Elune worked in.  -->
@@ -370,7 +389,6 @@ ___
 >
 > ***Moon's Shadow (Moonkin Form Only).*** When a creature succeeds on a saving throw against a cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effects.
 >
-> \columnbreak
 >
 > ***Spellcasting (Humanoid or Moonkin Form Only).*** The archdruid is an 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). The archdruid has the following druid spells prepared:
 >
@@ -403,12 +421,15 @@ ___
 >
 > ***Fury of Elune.*** When the archdruid is hit by a melee attack, it can use its reaction to deal 18 radiant damage to the attacker. The attacker must also make a DC 18 Strength saving throw. On a failed save, the attacker is pushed in a straight line up to 20 feet away from the archdruid.
 
-Among druidic communities, there is nobody more respected and heeded than the wise **archdruid**. Few have existed, and those that do live long lives devoted to nature, and many of those few spend their time bound to the Emerald Dream. 
+</div>
 
 \columnbreak
 
-
 <div class='footnote'>APPENDIX B: NONPLAYER CHARACTERS </div>
+<img src='https://i.imgur.com/6u511ES.jpg' style='position:absolute; top:-100px; left:-38px; width:920px;' />
+<img src='https://i.imgur.com/NO1EQoX.png' style='position:absolute; top:-230px; left:0; width:800px;' />
+<img src='https://i.imgur.com/NO1EQoX.png' style='position:absolute; bottom:0; left:0; width:800px;' />
+
 
 \pagebreakNum
 
@@ -531,6 +552,10 @@ Always searching for a chance to use their freshly sharp&shy;ened blade, a **ban
 <div></div>
 
 **Bersekers** are terrifying warriors who head no warning when they rush forth into battle, lost in the haze of violence so pure as to drown out any pain they might feel. Simply powering through until all around them lay dead. They are particularly common among trolls and dwarves, though not unique to them.
+
+> "I'm gonna enjoy guttin' you, lemme hear your bones crunch! GRaaAaAAH!!"
+>
+> - A berserker rousing before a fight
 
 
 \columnbreak
@@ -727,7 +752,7 @@ Those in the world who are weakest are often those most easily exploited, brough
 
 
 <div class='footnote'>APPENDIX B: NONPLAYER CHARACTERS </div>
-<img src='https://i.imgur.com/y0m5pEu.png' style='position:absolute; bottom:0px; right:-5px; width:820px' />
+<img src='https://i.imgur.com/y0m5pEu.png' style='position:absolute; bottom:0px; left:-10px; width:860px;' />
 
 \pagebreakNum
 
@@ -1120,9 +1145,10 @@ The higher class of their culture, **nobles** have often been particularly susce
 
 <img src="https://www.gmbinder.com/images/0hVRLNf.png" class="inkblot" style="width:690px; bottom:-120px; right:-160px; transform: rotate(21deg) scaleY(-1);" />
 <img src="https://www.gmbinder.com/images/0hVRLNf.png" class="inkblot" style="width:690px; bottom:-300px; right:190px; transform: rotate(81deg) scaleY(-1);" />
+
 <img src="https://www.gmbinder.com/images/xU5GXXN.png" style="position:absolute; bottom:-45px; right:-80px; width:530px;">
-<img src='https://i.imgur.com/4Zw3ovg.png' style='position:absolute; bottom:-0px; left:-30px; width:270px; transform:scaleX(-1); mix-blend-mode:multiply' />
-<img src="https://i.imgur.com/XsyrOpt.jpg" style="position:absolute; bottom:20px; left:220px; width:270px; mix-blend-mode:multiply " />
+<img src="https://i.imgur.com/XsyrOpt.jpg" style="position:absolute;bottom: 44px;left: 22px;width: 240px;mix-blend-mode:multiply;">
+<img src="https://i.imgur.com/4Zw3ovg.png" style="position:absolute;bottom: 13px;left: 246px;width: 260px;transform:scaleX(-1);mix-blend-mode:multiply;">
 
 
 <div class='footnote'>APPENDIX B: NONPLAYER CHARACTERS </div>
@@ -1196,8 +1222,10 @@ ___
 
 Among elves,  **rangers** are some of the most respected figures one can find, and any non-elf following the same path will often be treated to much of the same reverence. It is their charge to learn the lay of the land and guard it with utmost care.
 
+<!-- TODO: When this is in the book, it needs to have page numbers -->
+
 > ##### Variant: Beast Companions
-> Rangers are often accompanied by beasts of the wild as partners in battle. This is usually a creature of <br/> CR 1 or below. Some common examples of tamed beasts are listed below.
+> Rangers are often accompanied by beasts of the wild as partners in battle, which are added to an encoun&shy;ter as standalone creatures. This is usually a creature of CR 1 or below. Here are some examples of such tamed beasts (pages will be added later).
 >
 > Creature		            | Preferred By  | Page  
 > --------------------------|---------------|----:
@@ -1210,8 +1238,8 @@ Among elves,  **rangers** are some of the most respected figures one can find, a
 > Wind Serpent              | Tauren        | ###
 > Young Dragonhawk          | Blood elves   | ###
 
-<img src="https://www.gmbinder.com/images/AYuE5Qf.png" class="inkblot" style="width:660px; bottom:-420px; right:-101px; transform: rotate(244deg);" />
-<img src='https://www.gmbinder.com/images/Vd3niEy.png' style='position:absolute; top:690px; right:200px; width:600px;'>
+<img src="https://www.gmbinder.com/images/AYuE5Qf.png" class="inkblot" style="width:660px; bottom:-466px; right:129px; transform: rotate(264deg) scaleY(-1);" />
+<img src='https://www.gmbinder.com/images/Vd3niEy.png' style='position:absolute; bottom:-4px; left:-66px; width:536px;'>
 
 <div class='footnote'>APPENDIX B: NONPLAYER CHARACTERS </div>
 
@@ -1360,7 +1388,7 @@ Anyone looking to get ahead in the criminal underworld knows to pay for some mus
 
 \pagebreakNum
 
-<div style='margin-top:480px;'></div>
+<div style='margin-top:470px;'></div>
 
 ___ 
 > ## Tribal Warrior <!-- https://wc5e-cr-calculator.frogvall.com/?0;14;11;4;12;5;0;5;0;5;0;0;0;0;0;0;0;;;;;2;;;;;;;;;;1;;;1;;;;;10;;;;;; -->
@@ -1393,7 +1421,7 @@ Tribal societies can be found far and wide across Azeroth -- trolls, tauren, ogr
 
 \columnbreak
 
-<div style='margin-top:480px;'></div>
+<div style='margin-top:470px;'></div>
 
 ___
 > ## Veteran <!-- https://wc5e-cr-calculator.frogvall.com/?0;17;78;5;12;20;0;20;0;20;0;0;0;0;0;0;0;;;;;2;;;;;;;;;;1;;;;;;;;10;;;;;;;;;;; -->
@@ -1424,7 +1452,7 @@ ___
 Azeroth has seen countless wars, and a **veteran** of one is likely to be a veteran of many. Well-respected by their peers, it is not uncommon even for a long-retired veteran to still know their training by heart.
 
 
-<img src="https://i.imgur.com/WRgZf6j.jpg" style="position:absolute; top:-0px; left:0px; width:800px; "/>
+<img src="https://i.imgur.com/WRgZf6j.jpg" style="position:absolute;top: -50px;left: -5px;width: 900px;">
 <img src='https://i.imgur.com/iqsWrVi.png' style='position:absolute; top:-160px; left:0px; width:1000px' />
 
 <div class='footnote'>APPENDIX B: NONPLAYER CHARACTERS </div>
@@ -1473,8 +1501,8 @@ Sharply intelligent, immensely powerful, and often sardonic in nature, a **warlo
 \columnbreak
 
 
-<img src="https://i.imgur.com/tiU4RnD.png" class="inkblot" style="width:700px; bottom:220px; right:-175px; transform: rotate(-20deg);" />
-<img src='https://i.imgur.com/a3SgitT.png' style='position:absolute; bottom:-66px; right:-85px; width:600px' />
+<img src="https://i.imgur.com/tiU4RnD.png" class="inkblot" style="width:760px; top:0px; right:-230px; transform: rotate(-20deg);" />
+<img src='https://i.imgur.com/Wxj4KMG.png' style='position:absolute; bottom:-30px; right:-30px; width:880px' />
 
 <div class='footnote'>APPENDIX B: NONPLAYER CHARACTERS </div>
 
@@ -1482,7 +1510,7 @@ Sharply intelligent, immensely powerful, and often sardonic in nature, a **warlo
 \pagebreakNum
 
 
-<div style='margin-top:750px;'></div>
+<div style='margin-top:860px;'></div>
 
 ___
 ___
@@ -1537,12 +1565,16 @@ ___
 >
 > ***Arcane Deflection.*** When the mage is attacked by a spell, it can use its reaction to gain +2 AC or +4 to saving throws against that spell. 
 
-Some arcanists devote their life to the art of warfare, taking on the title of **war mages**. They keep a keen mind for tactical and scholarly matters alike, and are often among the most respected advisors to leaders. Some such mages are even charismatic leaders in their own right. 
+Some arcanists devote their life to the art of warfare, taking on the title of **war mages**. They keep a keen mind for tactical and scholarly matters alike, and are often among the most respected advisors to leaders. Some such mages are even charismatic leaders in their own right.
 
-<div class='footnote'>APPENDIX B: NONPLAYER CHARACTERS </div>
-<img src='https://www.gmbinder.com/images/lge9kHo.jpg' style='position:absolute; top:0px; right:-20px; width:840px' />
-<img src='https://i.imgur.com/C2bOp8u.png' style='position:absolute; top:250px; right:-10px; width:820px;' />
+\columnbreak
+
+
+<img src='https://i.imgur.com/PirsUGQ.jpg' style='position:absolute; top:-20px; left:0px; width:800px' />
+<img src='https://i.imgur.com/C2bOp8u.png' style='position:absolute; top:320px; right:-10px; width:820px;' />
+<img src="https://i.imgur.com/tiU4RnD.png" class="inkblot" style="width:700px; bottom:-540px; right:25px; transform:rotate(56deg);" />
  
+<div class='footnote'>APPENDIX B: NONPLAYER CHARACTERS </div>
  
 \pagebreakNum
 
@@ -1573,10 +1605,10 @@ These are the changes made to the class since the last update this material (3.x
 - Sharing your thoughts with us on [Reddit](https://www.reddit.com/r/wc5e/).
 - Writing to us via this [Google Form](https://forms.gle/FSbyK7nBbquPNVf36).
 
-<br />**Current core team:** Ace Azzermeen, Auvreannia, Geamros, Lorestalker Nemzal, MythMaker, Nagash, OmNomDom33887, Tangerine, Tyloris
+<br />**Current core team:** Ace Azzermeen, Geamros, Lorestalker Nemzal, MagusRogue, MythMaker, Nagash, OmNomDom33887, Tangerine, Tyloris
 <br />
 
-<br />**Inactive & former team members:** 123jrf, ApolloLumina, Artipo, Christinekn, ClockWorkTank, Elenus, Jih, Prometheus, Reiga, Silverblade, Tseims, Wyken
+<br />**Inactive & former team members:** 123jrf, ApolloLumina, Artipo, Auvreannia, Christinekn, ClockWorkTank, Elenus, Jih, Prometheus, Reiga, Silverblade, Tseims, Wyken
 <br />
 
 <br />**Big thanks to:** Everyone at our community Discord. Link to join our communities are on the book's back page!
@@ -1588,8 +1620,9 @@ These are the changes made to the class since the last update this material (3.x
 - [These WoW Dungeon modules](https://www.gmbinder.com/profile/wyken) by Wyken
 - All of the awesome homebrew that has been shared within the community, it's super cool to see it all! You can see a lot of it on our Discord, and in this [Theme of the Month](https://drive.google.com/drive/folders/1_inQbI4jjd6WF3ghzhr_9RYBFygAkVK1) collection.
 
-<br />**Page 1 Art:** [[Swap this one out?]]
+<br />**Page 1 Art:** "Acolyte" from [Warcraft III: Reforged](https://wowpedia.fandom.com/wiki/Acolyte?file=Reforged_credits_art_13.png)
 <br />**Page 2 Art:** "Archmage" by [breath-art](https://www.deviantart.com/breath-art/art/archmage-male-204726889)
+<br />**Page 3 Art:** "Val'Sharah Concept" by [Phillip Zhang](https://www.artstation.com/artwork/RYen2r)
 <br />**Page 4 Art:** "WoW Tribute" by [r-trigger](https://www.deviantart.com/r-trigger/art/WoW-Tribute-393940543)
 <br />**Page 5 Art:** Uncaptioned troll art by [Francis Brunet](https://www.artstation.com/francisbrunet)
 <br />**Page 6 Art:** "Crusader" by [Da Guo](https://bigguo.artstation.com/projects/LJl5R)
@@ -1604,6 +1637,7 @@ These are the changes made to the class since the last update this material (3.x
 <br />**Page 15 Art:** "Bubula del Kissel" by [Phroilan Gardner](https://wowpedia.fandom.com/wiki/Bubula_del_Kissel)
 <br />**Page 16 Art:** "Troll Warrior" by [VanHarmontt](https://www.deviantart.com/vanharmontt/art/Troll-warrior-832831281)
 <br />**Page 17 Art:** "Belf Warlock" by [VanHarmontt](https://www.deviantart.com/vanharmontt/art/Belf-Warlock-772984259)
+<br />**Page 18 Art:** "Fire Mage" by [Matheus Fernando](https://www.artstation.com/artwork/W8mLJ)
 <br /> **Backpage Art:** "Wardens of Nordrassil" by [Kan Liu](https://666kart.artstation.com/projects/6qo6)
 
 \pagebreak
